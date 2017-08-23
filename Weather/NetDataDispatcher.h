@@ -6,8 +6,15 @@
 //  Copyright © 2017 Shaun. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "NSDictionary+HelperCategory.h"
 
 @interface NetDataDispatcher : NSObject
+
++ (NSDictionary *)getWeatherForId:(NSNumber *)cityId;
+
++ (NSDictionary *)getWeatherForCity:(NSString *)cityName;
+
++ (UIImage *)getIconForId:(NSString *)iconId;
 
 @end

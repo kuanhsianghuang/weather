@@ -7,6 +7,7 @@
 //
 
 #import "MainTabBarController.h"
+#import "DataCache.h"
 
 @interface MainTabBarController ()
 
@@ -17,11 +18,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [DataCache init];
+    [DataCache loadCache];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    [DataCache clear];
+}
+
+
+- (void)addNewCity:(NSDictionary *)data
+{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ForecastViewController *myController = [storyboard instantiateViewControllerWithIdentifier:@"ForeCastViewController"];
+    myController.cityDictionary = data;
+    
+    NSMutableArray *tabs = [[NSMutableArray alloc] initWithArray:self.viewControllers];
+    [tabs addObject:myController];
+    self.viewControllers = tabs;
+    self.selectedIndex = [tabs count]-1;
+}
+
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [DataCache saveCache];
 }
 
 /*

@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CitySearchCell : UIViewController
+@interface CitySearchCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *WeatherLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *WeatherIconImageView;
+@property (weak, nonatomic) IBOutlet UILabel *CityNameLabelView;
+@property (weak, nonatomic) IBOutlet UILabel *CountryNameLabelView;
+
+- (void)setCity:(NSString *)city Country:(NSString *)country andIcon:(UIImage *)img;
 
 @end

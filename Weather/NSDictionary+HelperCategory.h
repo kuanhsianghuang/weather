@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Constants.h"
 
 @interface NSDictionary (HelperCategory)
+
+- (NSNumber *) numberForKey:(NSString *)key;
+- (NSString *) stringForKey:(NSString *)key;
+- (NSNumber *) numberForKeys:(NSArray *)array;
+- (NSString *) stringForKeys:(NSArray *)array;
 
 @end

@@ -10,4 +10,11 @@
 
 @implementation CitySearchCell
 
+- (void)setCity:(NSString *)city Country:(NSString *)country andIcon:(UIImage *)img
+{
+    [_CityNameLabelView setText:city];
+    [_CountryNameLabelView setText:country];
+    [_WeatherIconImageView setImage:img];
+}
+
 @end

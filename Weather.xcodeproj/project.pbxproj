@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		28BFDAAB1F4D1DA800BFAABF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDAAA1F4D1DA800BFAABF /* main.m */; };
 		28BFDAAE1F4D1DA800BFAABF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDAAD1F4D1DA800BFAABF /* AppDelegate.m */; };
-		28BFDAB11F4D1DA800BFAABF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDAB01F4D1DA800BFAABF /* FirstViewController.m */; };
-		28BFDAB41F4D1DA800BFAABF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDAB31F4D1DA800BFAABF /* SecondViewController.m */; };
 		28BFDAB71F4D1DA800BFAABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BFDAB51F4D1DA800BFAABF /* Main.storyboard */; };
 		28BFDAB91F4D1DA800BFAABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BFDAB81F4D1DA800BFAABF /* Assets.xcassets */; };
 		28BFDABC1F4D1DA800BFAABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BFDABA1F4D1DA800BFAABF /* LaunchScreen.storyboard */; };
 		28BFDAC71F4D1DA800BFAABF /* WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDAC61F4D1DA800BFAABF /* WeatherTests.m */; };
 		28BFDAD21F4D1DA800BFAABF /* WeatherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDAD11F4D1DA800BFAABF /* WeatherUITests.m */; };
+		28BFDAE41F4D1EF400BFAABF /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDAE31F4D1EF400BFAABF /* MainTabBarController.m */; };
+		28BFDAE61F4D211100BFAABF /* DataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDAE51F4D211100BFAABF /* DataCache.m */; };
+		28BFDAF11F4D2B8100BFAABF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDAF01F4D2B8100BFAABF /* Constants.m */; };
+		28BFDAF71F4D319200BFAABF /* NetDataDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDAF61F4D319200BFAABF /* NetDataDispatcher.m */; };
+		28BFDAFA1F4D400900BFAABF /* CitySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDAF91F4D400900BFAABF /* CitySearchViewController.m */; };
+		28BFDAFD1F4D4CA800BFAABF /* CitySearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDAFC1F4D4CA800BFAABF /* CitySearchCell.m */; };
+		28BFDB061F4D675300BFAABF /* NSDictionary+HelperCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDB051F4D675300BFAABF /* NSDictionary+HelperCategory.m */; };
+		28BFDB091F4D817400BFAABF /* ForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDB081F4D817400BFAABF /* ForecastViewController.m */; };
+		28BFDB0C1F4DABAB00BFAABF /* ForecastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFDB0B1F4DABAB00BFAABF /* ForecastCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +47,6 @@
 		28BFDAAA1F4D1DA800BFAABF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28BFDAAC1F4D1DA800BFAABF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28BFDAAD1F4D1DA800BFAABF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		28BFDAAF1F4D1DA800BFAABF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		28BFDAB01F4D1DA800BFAABF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		28BFDAB21F4D1DA800BFAABF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		28BFDAB31F4D1DA800BFAABF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		28BFDAB61F4D1DA800BFAABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28BFDAB81F4D1DA800BFAABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28BFDABB1F4D1DA800BFAABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,24 @@
 		28BFDACD1F4D1DA800BFAABF /* WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BFDAD11F4D1DA800BFAABF /* WeatherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherUITests.m; sourceTree = "<group>"; };
 		28BFDAD31F4D1DA800BFAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28BFDAE21F4D1EF400BFAABF /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		28BFDAE31F4D1EF400BFAABF /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		28BFDAE51F4D211100BFAABF /* DataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCache.m; sourceTree = "<group>"; };
+		28BFDAE71F4D25FC00BFAABF /* DataCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataCache.h; sourceTree = "<group>"; };
+		28BFDAEF1F4D2B8100BFAABF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		28BFDAF01F4D2B8100BFAABF /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		28BFDAF51F4D319200BFAABF /* NetDataDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetDataDispatcher.h; sourceTree = "<group>"; };
+		28BFDAF61F4D319200BFAABF /* NetDataDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetDataDispatcher.m; sourceTree = "<group>"; };
+		28BFDAF81F4D400900BFAABF /* CitySearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySearchViewController.h; sourceTree = "<group>"; };
+		28BFDAF91F4D400900BFAABF /* CitySearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySearchViewController.m; sourceTree = "<group>"; };
+		28BFDAFB1F4D4CA800BFAABF /* CitySearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySearchCell.h; sourceTree = "<group>"; };
+		28BFDAFC1F4D4CA800BFAABF /* CitySearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySearchCell.m; sourceTree = "<group>"; };
+		28BFDB041F4D675300BFAABF /* NSDictionary+HelperCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HelperCategory.h"; sourceTree = "<group>"; };
+		28BFDB051F4D675300BFAABF /* NSDictionary+HelperCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HelperCategory.m"; sourceTree = "<group>"; };
+		28BFDB071F4D817400BFAABF /* ForecastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastViewController.h; sourceTree = "<group>"; };
+		28BFDB081F4D817400BFAABF /* ForecastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastViewController.m; sourceTree = "<group>"; };
+		28BFDB0A1F4DABAB00BFAABF /* ForecastCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastCell.h; sourceTree = "<group>"; };
+		28BFDB0B1F4DABAB00BFAABF /* ForecastCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,13 +127,27 @@
 			children = (
 				28BFDAAC1F4D1DA800BFAABF /* AppDelegate.h */,
 				28BFDAAD1F4D1DA800BFAABF /* AppDelegate.m */,
-				28BFDAAF1F4D1DA800BFAABF /* FirstViewController.h */,
-				28BFDAB01F4D1DA800BFAABF /* FirstViewController.m */,
-				28BFDAB21F4D1DA800BFAABF /* SecondViewController.h */,
-				28BFDAB31F4D1DA800BFAABF /* SecondViewController.m */,
+				28BFDAEF1F4D2B8100BFAABF /* Constants.h */,
+				28BFDAF01F4D2B8100BFAABF /* Constants.m */,
+				28BFDAE71F4D25FC00BFAABF /* DataCache.h */,
+				28BFDAE51F4D211100BFAABF /* DataCache.m */,
+				28BFDAF51F4D319200BFAABF /* NetDataDispatcher.h */,
+				28BFDAF61F4D319200BFAABF /* NetDataDispatcher.m */,
+				28BFDAFB1F4D4CA800BFAABF /* CitySearchCell.h */,
+				28BFDAFC1F4D4CA800BFAABF /* CitySearchCell.m */,
+				28BFDAF81F4D400900BFAABF /* CitySearchViewController.h */,
+				28BFDAF91F4D400900BFAABF /* CitySearchViewController.m */,
+				28BFDB0A1F4DABAB00BFAABF /* ForecastCell.h */,
+				28BFDB0B1F4DABAB00BFAABF /* ForecastCell.m */,
+				28BFDB071F4D817400BFAABF /* ForecastViewController.h */,
+				28BFDB081F4D817400BFAABF /* ForecastViewController.m */,
+				28BFDAE21F4D1EF400BFAABF /* MainTabBarController.h */,
+				28BFDAE31F4D1EF400BFAABF /* MainTabBarController.m */,
+				28BFDB041F4D675300BFAABF /* NSDictionary+HelperCategory.h */,
+				28BFDB051F4D675300BFAABF /* NSDictionary+HelperCategory.m */,
 				28BFDAB51F4D1DA800BFAABF /* Main.storyboard */,
-				28BFDAB81F4D1DA800BFAABF /* Assets.xcassets */,
 				28BFDABA1F4D1DA800BFAABF /* LaunchScreen.storyboard */,
+				28BFDAB81F4D1DA800BFAABF /* Assets.xcassets */,
 				28BFDABD1F4D1DA800BFAABF /* Info.plist */,
 				28BFDAA91F4D1DA800BFAABF /* Supporting Files */,
 			);
@@ -275,10 +310,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28BFDAB41F4D1DA800BFAABF /* SecondViewController.m in Sources */,
+				28BFDAE61F4D211100BFAABF /* DataCache.m in Sources */,
+				28BFDAFA1F4D400900BFAABF /* CitySearchViewController.m in Sources */,
+				28BFDAFD1F4D4CA800BFAABF /* CitySearchCell.m in Sources */,
+				28BFDAE41F4D1EF400BFAABF /* MainTabBarController.m in Sources */,
 				28BFDAAE1F4D1DA800BFAABF /* AppDelegate.m in Sources */,
-				28BFDAB11F4D1DA800BFAABF /* FirstViewController.m in Sources */,
+				28BFDB091F4D817400BFAABF /* ForecastViewController.m in Sources */,
+				28BFDB0C1F4DABAB00BFAABF /* ForecastCell.m in Sources */,
+				28BFDAF11F4D2B8100BFAABF /* Constants.m in Sources */,
+				28BFDAF71F4D319200BFAABF /* NetDataDispatcher.m in Sources */,
 				28BFDAAB1F4D1DA800BFAABF /* main.m in Sources */,
+				28BFDB061F4D675300BFAABF /* NSDictionary+HelperCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +546,7 @@
 				28BFDAD81F4D1DA800BFAABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28BFDAD91F4D1DA800BFAABF /* Build configuration list for PBXNativeTarget "WeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +555,7 @@
 				28BFDADB1F4D1DA800BFAABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28BFDADC1F4D1DA800BFAABF /* Build configuration list for PBXNativeTarget "WeatherUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +564,7 @@
 				28BFDADE1F4D1DA800BFAABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
