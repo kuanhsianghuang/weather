@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *WeatherIconImageView;
 @property (weak, nonatomic) IBOutlet UILabel *CityNameLabelView;
 @property (weak, nonatomic) IBOutlet UILabel *CountryNameLabelView;
+@property (weak, nonatomic) IBOutlet UILabel *StationIDLabel;
 
 - (void)setCity:(NSString *)city Country:(NSString *)country andIcon:(UIImage *)img;
 

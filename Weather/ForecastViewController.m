@@ -32,6 +32,7 @@ BOOL isCelcius;
     [_CityLabel setText:[_cityDictionary stringForKey:STR_NAME]];
     [_TabBarItem setTitle:_CityLabel.text];
     [_CountryLabel setText:[_cityDictionary stringForKeys:@[STR_SYS, STR_COUNTRY]]];
+    [_StationIdLabel setText:[[_cityDictionary numberForKey:STR_ID] stringValue]];
     
     [self changeTempUnit:self];
     

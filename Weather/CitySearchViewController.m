@@ -79,6 +79,7 @@
     
     [cell.CityNameLabelView setText:[cityData stringForKey:STR_NAME]];
     [cell.CountryNameLabelView setText:[cityData stringForKeys:@[STR_SYS, STR_COUNTRY]]];
+    [cell.StationIDLabel setText:[[cityData numberForKey:STR_ID] stringValue]];
     
     NSDictionary *weatherDict = [[cityData objectForKey:STR_WEATHER] objectAtIndex:0];
     [cell.WeatherLabel setText:[weatherDict stringForKey:STR_MAIN]];

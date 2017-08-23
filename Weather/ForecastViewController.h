@@ -15,7 +15,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *CurrentWeatherIcon;
 @property (weak, nonatomic) IBOutlet UILabel *CityLabel;
 @property (weak, nonatomic) IBOutlet UILabel *CountryLabel;
-@property (weak, nonatomic) IBOutlet UILabel *TimeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *StationIdLabel;
 @property (weak, nonatomic) IBOutlet UILabel *TempHighLabel;
 @property (weak, nonatomic) IBOutlet UILabel *TempLowLabel;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *TempUnit;
